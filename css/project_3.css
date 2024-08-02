@@ -1,0 +1,246 @@
+/* Start Variables */
+:root {
+    --main-color: #19c8fa;
+    --transparent-color: rgb(15 116 143 / 70%);
+    --section-padding: 100px;
+}
+
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* End Global Rules */
+
+.page {
+    background-image: url(../image/clk9cptenntcj8a9m5sg.jpg);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.page .container {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    padding: 30px 10px;
+
+}
+
+.page .container .sign {
+    padding-bottom: 30px;
+
+}
+
+.page .container .sign .h2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+
+}
+
+
+
+.page .container .sign a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    color: #A0DCF0;
+
+}
+
+.page .container .sign a:hover {
+    font-size: 30px;
+    padding-left: 50px;
+    font-weight: 900;
+    color: #19c8fa;
+
+
+}
+
+.lab label {
+    position: absolute;
+    left: 85px;
+    top: 270px;
+
+}
+
+.page .container .use {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.page .container .use button {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border: #F3F3F5 3px solid;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.page .container .use button:hover {
+    transform: scale(1.3);
+}
+
+.page .container .or p {
+    font-size: 15px;
+    font-weight: 50;
+
+}
+
+
+
+.page .container .email input{
+    border-radius: 5px;
+    border: #d0d0e1 3px solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1rem;
+
+}
+.page .container .password input{
+    border-radius: 5px;
+    border: #d0d0e1 3px solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1rem;
+}
+.page .container .password .pass {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+
+
+}
+
+.page .container .password .pass a {
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+.page .container .password .pass a:hover {
+    color: #A0DCF0;
+    font-weight: 500;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+}
+.page .container .remember input{
+    width: 50%;
+    
+}
+.page .container .remember{
+    
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+.page .container .remember input{
+    margin: 0;
+    width: 20px;
+
+}
+.page .container .remember p{
+    font-weight: 600;
+}
+
+.signin button{
+    width: 80%;
+    height: 40px;
+    background-color: #477CBF;
+    color: #f1f7ff;
+    font-size: 1rem;
+    border-radius:20px ;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.signin button:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
